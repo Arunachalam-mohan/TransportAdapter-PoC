@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/">
+    <SOAP-ENV:Header>
+        <ns:Header xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ns="http://xmlns.vodafone.co.uk/map/til/wsdl/Common/Header" xmlns:ns0="http://schemas.xmlsoap.org/soap/envelope/">
+            <ns:source>BW</ns:source>
+            <ns:sourceTimestamp>2024-07-15T14:53:47.685Z</ns:sourceTimestamp>
+            <ns:transactionId>SBL--1073147875-1721055225588</ns:transactionId>
+        </ns:Header>
+    </SOAP-ENV:Header>
+    <SOAP-ENV:Body>
+        <ns0:GetServiceAvailabilityResponse xmlns:ns0="http://xmlns.vodafone.co.uk/map/til/CustomerManagement/OrderCaptureAndValidation/CommercialOrderValidation/GetServiceAvailability">
+            <ns1:ResultStatus xmlns:ns1="http://xmlns.vodafone.co.uk/map/til/Common/ResultStatus">
+                <ns1:component>TIL</ns1:component>
+                <ns1:operation>GetServiceAvailability.3</ns1:operation>
+                <ns1:severity>S</ns1:severity>
+                <ns1:code>000</ns1:code>
+                <ns1:message>Success</ns1:message>
+            </ns1:ResultStatus>
+            <ns0:Services>
+                <ns0:Service>
+                    <ns0:ID>PC00051</ns0:ID>
+                    <ns0:Name>Single Play FTTH</ns0:Name>
+                    <ns0:Availability>
+                        <ns0:ServiceCategory>FTTH</ns0:ServiceCategory>
+                        <ns0:Status>AVAILABLE</ns0:Status>
+                        <ns0:Code>0000</ns0:Code>
+                        <ns0:Message>Success</ns0:Message>
+                    </ns0:Availability>
+                    <ns0:PreOrder>false</ns0:PreOrder>
+                    <ns0:RegisterOfInterest>false</ns0:RegisterOfInterest>
+                    <ns0:ReadyForServiceDate>2024-07-30</ns0:ReadyForServiceDate>
+                    <ns0:InstallationType>Non Standard</ns0:InstallationType>
+                    <ns0:ComponentReference>
+                        <ns0:LineReference>
+                            <ns0:Address>
+                                <ns0:Category>DELIVERY</ns0:Category>
+                                <ns0:Postcode>MK5 7BS</ns0:Postcode>
+                            </ns0:Address>
+                            <ns0:LineStatus/>
+                        </ns0:LineReference>
+                    </ns0:ComponentReference>
+                    <ns0:ServiceLines>
+                        <ns0:Classification>FTTH Voice with Speed 40</ns0:Classification>
+                        <ns0:NetworkType>Onnet</ns0:NetworkType>
+                        <ns0:ServiceLine>
+                            <ns0:Classification>FTTH Voice with Speed 40</ns0:Classification>
+                            <ns0:LineSpeeds>
+                                <ns0:MaxDownSpeed>41000.0</ns0:MaxDownSpeed>
+                                <ns0:MinDownSpeed>41000.0</ns0:MinDownSpeed>
+                                <ns0:MinGuaranteedDownSpeed>21000.0</ns0:MinGuaranteedDownSpeed>
+                                <ns0:MaxUpSpeed>41000.0</ns0:MaxUpSpeed>
+                                <ns0:MinUpSpeed>41000.0</ns0:MinUpSpeed>
+                            </ns0:LineSpeeds>
+                            <ns0:LineTreatments>
+                                <ns0:Type>NEW</ns0:Type>
+                                <ns0:EarliestAvailabilityDate>2024-08-12</ns0:EarliestAvailabilityDate>
+                                <ns0:AppointmentNeeded>true</ns0:AppointmentNeeded>
+                                <ns0:LineTreatment>
+                                    <ns0:ServiceAction>Provide</ns0:ServiceAction>
+                                    <ns0:CanNumberBeRetained>true</ns0:CanNumberBeRetained>
+                                    <ns0:ServiceSubAction>New Provide</ns0:ServiceSubAction>
+                                </ns0:LineTreatment>
+                            </ns0:LineTreatments>
+                        </ns0:ServiceLine>
+                    </ns0:ServiceLines>
+                    <ns0:ServiceLines>
+                        <ns0:Classification>FTTH Voice with Speed 100</ns0:Classification>
+                        <ns0:NetworkType>Onnet</ns0:NetworkType>
+                        <ns0:ServiceLine>
+                            <ns0:Classification>FTTH Voice with Speed 100</ns0:Classification>
+                            <ns0:LineSpeeds>
+                                <ns0:MaxDownSpeed>100000.0</ns0:MaxDownSpeed>
+                                <ns0:MinDownSpeed>100000.0</ns0:MinDownSpeed>
+                                <ns0:MinGuaranteedDownSpeed>50000.0</ns0:MinGuaranteedDownSpeed>
+                                <ns0:MaxUpSpeed>100000.0</ns0:MaxUpSpeed>
+                                <ns0:MinUpSpeed>100000.0</ns0:MinUpSpeed>
+                            </ns0:LineSpeeds>
+                            <ns0:LineTreatments>
+                                <ns0:Type>NEW</ns0:Type>
+                                <ns0:EarliestAvailabilityDate>2024-08-12</ns0:EarliestAvailabilityDate>
+                                <ns0:AppointmentNeeded>true</ns0:AppointmentNeeded>
+                                <ns0:LineTreatment>
+                                    <ns0:ServiceAction>Provide</ns0:ServiceAction>
+                                    <ns0:CanNumberBeRetained>true</ns0:CanNumberBeRetained>
+                                    <ns0:ServiceSubAction>New Provide</ns0:ServiceSubAction>
+                                </ns0:LineTreatment>
+                            </ns0:LineTreatments>
+                        </ns0:ServiceLine>
+                    </ns0:ServiceLines>
+                    <ns0:ServiceLines>
+                        <ns0:Classification>FTTH Voice with Speed 200</ns0:Classification>
+                        <ns0:NetworkType>Onnet</ns0:NetworkType>
+                        <ns0:ServiceLine>
+                            <ns0:Classification>FTTH Voice with Speed 200</ns0:Classification>
+                            <ns0:LineSpeeds>
+                                <ns0:MaxDownSpeed>200000.0</ns0:MaxDownSpeed>
+                                <ns0:MinDownSpeed>200000.0</ns0:MinDownSpeed>
+                                <ns0:MinGuaranteedDownSpeed>100000.0</ns0:MinGuaranteedDownSpeed>
+                                <ns0:MaxUpSpeed>200000.0</ns0:MaxUpSpeed>
+                                <ns0:MinUpSpeed>200000.0</ns0:MinUpSpeed>
+                            </ns0:LineSpeeds>
+                            <ns0:LineTreatments>
+                                <ns0:Type>NEW</ns0:Type>
+                                <ns0:EarliestAvailabilityDate>2024-08-12</ns0:EarliestAvailabilityDate>
+                                <ns0:AppointmentNeeded>true</ns0:AppointmentNeeded>
+                                <ns0:LineTreatment>
+                                    <ns0:ServiceAction>Provide</ns0:ServiceAction>
+                                    <ns0:CanNumberBeRetained>true</ns0:CanNumberBeRetained>
+                                    <ns0:ServiceSubAction>New Provide</ns0:ServiceSubAction>
+                                </ns0:LineTreatment>
+                            </ns0:LineTreatments>
+                        </ns0:ServiceLine>
+                    </ns0:ServiceLines>
+                    <ns0:ServiceLines>
+                        <ns0:Classification>FTTH Voice with Speed 500</ns0:Classification>
+                        <ns0:NetworkType>Onnet</ns0:NetworkType>
+                        <ns0:ServiceLine>
+                            <ns0:Classification>FTTH Voice with Speed 500</ns0:Classification>
+                            <ns0:LineSpeeds>
+                                <ns0:MaxDownSpeed>500000.0</ns0:MaxDownSpeed>
+                                <ns0:MinDownSpeed>500000.0</ns0:MinDownSpeed>
+                                <ns0:MinGuaranteedDownSpeed>250000.0</ns0:MinGuaranteedDownSpeed>
+                                <ns0:MaxUpSpeed>500000.0</ns0:MaxUpSpeed>
+                                <ns0:MinUpSpeed>500000.0</ns0:MinUpSpeed>
+                            </ns0:LineSpeeds>
+                            <ns0:LineTreatments>
+                                <ns0:Type>NEW</ns0:Type>
+                                <ns0:EarliestAvailabilityDate>2024-08-12</ns0:EarliestAvailabilityDate>
+                                <ns0:AppointmentNeeded>true</ns0:AppointmentNeeded>
+                                <ns0:LineTreatment>
+                                    <ns0:ServiceAction>Provide</ns0:ServiceAction>
+                                    <ns0:CanNumberBeRetained>true</ns0:CanNumberBeRetained>
+                                    <ns0:ServiceSubAction>New Provide</ns0:ServiceSubAction>
+                                </ns0:LineTreatment>
+                            </ns0:LineTreatments>
+                        </ns0:ServiceLine>
+                    </ns0:ServiceLines>
+                    <ns0:ServiceLines>
+                        <ns0:Classification>FTTH Voice with Speed 900</ns0:Classification>
+                        <ns0:NetworkType>Onnet</ns0:NetworkType>
+                        <ns0:ServiceLine>
+                            <ns0:Classification>FTTH Voice with Speed 900</ns0:Classification>
+                            <ns0:LineSpeeds>
+                                <ns0:MaxDownSpeed>910000.0</ns0:MaxDownSpeed>
+                                <ns0:MinDownSpeed>910000.0</ns0:MinDownSpeed>
+                                <ns0:MinGuaranteedDownSpeed>455000.0</ns0:MinGuaranteedDownSpeed>
+                                <ns0:MaxUpSpeed>910000.0</ns0:MaxUpSpeed>
+                                <ns0:MinUpSpeed>910000.0</ns0:MinUpSpeed>
+                            </ns0:LineSpeeds>
+                            <ns0:LineTreatments>
+                                <ns0:Type>NEW</ns0:Type>
+                                <ns0:EarliestAvailabilityDate>2024-08-12</ns0:EarliestAvailabilityDate>
+                                <ns0:AppointmentNeeded>true</ns0:AppointmentNeeded>
+                                <ns0:LineTreatment>
+                                    <ns0:ServiceAction>Provide</ns0:ServiceAction>
+                                    <ns0:CanNumberBeRetained>true</ns0:CanNumberBeRetained>
+                                    <ns0:ServiceSubAction>New Provide</ns0:ServiceSubAction>
+                                </ns0:LineTreatment>
+                            </ns0:LineTreatments>
+                        </ns0:ServiceLine>
+                    </ns0:ServiceLines>
+                    <ns0:ServiceLines>
+                        <ns0:Classification>FTTH Voice with Speed 80</ns0:Classification>
+                        <ns0:NetworkType>Onnet</ns0:NetworkType>
+                        <ns0:ServiceLine>
+                            <ns0:Classification>FTTH Voice with Speed 80</ns0:Classification>
+                            <ns0:LineSpeeds>
+                                <ns0:MaxDownSpeed>82000.0</ns0:MaxDownSpeed>
+                                <ns0:MinDownSpeed>82000.0</ns0:MinDownSpeed>
+                                <ns0:MinGuaranteedDownSpeed>41000.0</ns0:MinGuaranteedDownSpeed>
+                                <ns0:MaxUpSpeed>82000.0</ns0:MaxUpSpeed>
+                                <ns0:MinUpSpeed>82000.0</ns0:MinUpSpeed>
+                            </ns0:LineSpeeds>
+                            <ns0:LineTreatments>
+                                <ns0:Type>NEW</ns0:Type>
+                                <ns0:EarliestAvailabilityDate>2024-08-12</ns0:EarliestAvailabilityDate>
+                                <ns0:AppointmentNeeded>true</ns0:AppointmentNeeded>
+                                <ns0:LineTreatment>
+                                    <ns0:ServiceAction>Provide</ns0:ServiceAction>
+                                    <ns0:CanNumberBeRetained>true</ns0:CanNumberBeRetained>
+                                    <ns0:ServiceSubAction>New Provide</ns0:ServiceSubAction>
+                                </ns0:LineTreatment>
+                            </ns0:LineTreatments>
+                        </ns0:ServiceLine>
+                    </ns0:ServiceLines>
+                    <ns0:ServiceLines>
+                        <ns0:Classification>FTTH Voice with Speed 150</ns0:Classification>
+                        <ns0:NetworkType>Onnet</ns0:NetworkType>
+                        <ns0:ServiceLine>
+                            <ns0:Classification>FTTH Voice with Speed 150</ns0:Classification>
+                            <ns0:LineSpeeds>
+                                <ns0:MaxDownSpeed>150000.0</ns0:MaxDownSpeed>
+                                <ns0:MinDownSpeed>150000.0</ns0:MinDownSpeed>
+                                <ns0:MinGuaranteedDownSpeed>75000.0</ns0:MinGuaranteedDownSpeed>
+                                <ns0:MaxUpSpeed>150000.0</ns0:MaxUpSpeed>
+                                <ns0:MinUpSpeed>150000.0</ns0:MinUpSpeed>
+                            </ns0:LineSpeeds>
+                            <ns0:LineTreatments>
+                                <ns0:Type>NEW</ns0:Type>
+                                <ns0:EarliestAvailabilityDate>2024-08-12</ns0:EarliestAvailabilityDate>
+                                <ns0:AppointmentNeeded>true</ns0:AppointmentNeeded>
+                                <ns0:LineTreatment>
+                                    <ns0:ServiceAction>Provide</ns0:ServiceAction>
+                                    <ns0:CanNumberBeRetained>true</ns0:CanNumberBeRetained>
+                                    <ns0:ServiceSubAction>New Provide</ns0:ServiceSubAction>
+                                </ns0:LineTreatment>
+                            </ns0:LineTreatments>
+                        </ns0:ServiceLine>
+                    </ns0:ServiceLines>
+                    <ns0:ServiceLines>
+                        <ns0:Classification>FTTH Voice with Speed 2200</ns0:Classification>
+                        <ns0:NetworkType>Onnet</ns0:NetworkType>
+                        <ns0:ServiceLine>
+                            <ns0:Classification>FTTH Voice with Speed 2200</ns0:Classification>
+                            <ns0:LineSpeeds>
+                                <ns0:MaxDownSpeed>2200000.0</ns0:MaxDownSpeed>
+                                <ns0:MinDownSpeed>2200000.0</ns0:MinDownSpeed>
+                                <ns0:MinGuaranteedDownSpeed>1100000.0</ns0:MinGuaranteedDownSpeed>
+                                <ns0:MaxUpSpeed>2200000.0</ns0:MaxUpSpeed>
+                                <ns0:MinUpSpeed>2200000.0</ns0:MinUpSpeed>
+                            </ns0:LineSpeeds>
+                            <ns0:LineTreatments>
+                                <ns0:Type>NEW</ns0:Type>
+                                <ns0:EarliestAvailabilityDate>2024-08-12</ns0:EarliestAvailabilityDate>
+                                <ns0:AppointmentNeeded>true</ns0:AppointmentNeeded>
+                                <ns0:LineTreatment>
+                                    <ns0:ServiceAction>Provide</ns0:ServiceAction>
+                                    <ns0:CanNumberBeRetained>true</ns0:CanNumberBeRetained>
+                                    <ns0:ServiceSubAction>New Provide</ns0:ServiceSubAction>
+                                </ns0:LineTreatment>
+                            </ns0:LineTreatments>
+                        </ns0:ServiceLine>
+                    </ns0:ServiceLines>
+                </ns0:Service>
+            </ns0:Services>
+        </ns0:GetServiceAvailabilityResponse>
+    </SOAP-ENV:Body>
+</SOAP-ENV:Envelope>

@@ -1,0 +1,4 @@
+﻿serviceName,soapAction,topicName
+customerpartylist/v2/get,GetServiceAvailability.3,VOD.UK.WRPTEST06.TILIF.Request.SOAP.CUST.OrdCapVal.CommercialOrderValidation.GetServiceAvailability.3
+customerlist/v2/get,GetServiceAvailability.2,VOD.UK.WRPTEST06.TILIF.Request.SOAP.CUST.OrdCapVal.CommercialOrderValidation.GetServiceAvailability.2
+authenticateIdentity/v2/get,AuthenticateIdentity.2,VOD.UK.PR.TILIF.Request.JSON.CUST.CustProfMgt.CustomerIdentityManagement.AuthenticateIdentity.2
